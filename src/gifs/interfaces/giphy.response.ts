@@ -63,7 +63,7 @@ export interface Images {
   preview: DownsizedSmall;
   preview_gif: The480_WStill;
   preview_webp: The480_WStill;
-  "480w_still": The480_WStill;
+  '480w_still': The480_WStill;
   hd?: DownsizedSmall;
 }
 
@@ -99,11 +99,11 @@ export interface Looping {
   mp4: string;
 }
 
-export type Rating = "g" | "pg";
+export type Rating = 'g' | 'pg';
 
 export type TrendingDatetime = string;
 
-export type GiphyType = "gif";
+export type GiphyType = 'gif';
 
 export interface User {
   avatar_url: string;
