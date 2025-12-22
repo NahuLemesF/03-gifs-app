@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { CustomHeader } from "../../../src/shared/components/CustomHeader";
+import { CustomHeader } from "./CustomHeader";
 
 describe("CustomHeader", () => {
   const title = "Test Title";
